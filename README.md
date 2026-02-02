@@ -10,6 +10,7 @@ This repository contains Packer configurations to automate the creation of Ubunt
 ## Environment Variables
 Before running Packer, you must export your Proxmox credentials.
 ```
+export PROXMOX_URL="https://proxmox_url:8006/api2/json"
 export PROXMOX_USERNAME="user@pve"
 export PROXMOX_PASSWORD="your-password-here"
 ```
